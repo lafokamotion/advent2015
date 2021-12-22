@@ -15,5 +15,5 @@ for char in output:
     elif char == ')':
         floor_count-=1
     if floor_count == -1:
-        print(index)
-print(floor_count)
+        print("Index when the current floor was in the basement (-1): ", index)
+print("Floor that the elevator took us to: ",floor_count)
